@@ -18,6 +18,7 @@ var ListQuestions = ["My hobbies?", "Dog or Cat?", "Favorite Movie?", "Motto?"];
 var ListAnswers = undefined;
 var dct_synonym = { "hobby": "hobbies", "pet": "dog", "dogs": "dog", "cats": "cat", "movies": "movie", "film": "movie"}
 var dct_useless = { "is": 0, "it": 0, "to": 0 , "the": 0, "a": 0, "and": 0, "me": 0, "you": 0 };
+var str_bio = "Canvas Name: Amos Dong\nGoes by: Amos(Ay-M-S)\nExpertise: C++, Python & Unity\nFavorite Game: Splatoon! Ink the floor and splat your enemy!\n\nHi, My name is Amos! It is so great being a game engineer. Game development is so cool! I don't really have a specific preference in terms of the post I would like to take in the future. As long as it is game-related, I will be thrilled! It is just amazing to witness something tangible come out because of my effort. Being part of the greatness gives me a great sense of achievement! I love dogs. Currently, I don't have one due to many reasons. But I believe I would have my own puppy someday in the future and treat him/her as a precious member of my family! On top of that, I like travelling, reading interesting journals, and of course, games!";
 
 
 
@@ -172,31 +173,8 @@ class SceneMain extends Phaser.Scene
         this.add.image(ww * 0.5, wh * 0.5, 'bg').setDisplaySize(ww, wh);
         this.add.image(ww * 0.2, wh * 0.24, 'selfie').setDisplaySize(ww* 0.2, ww* 0.21);
         this.add.image(ww * 0.2, wh * 0.24, 'selfieFrame').setDisplaySize(ww* 0.225, ww* 0.23);
-        this.add.image(ww * 0.22, wh * 0.7, 'introBG').setDisplaySize(ww* 0.42, ww* 0.28);
-        let txt_canvasName = this.add.text(ww * 0.128, wh * 0.52, "Canvas Name: Amos Dong", {
-            fontFamily: 'open sans',
-            color: '#000000',
-            fontSize: (ww * 0.011) + 'px'      
-        }).setOrigin(0.5);
-        let txt_preferredName = this.add.text(ww * 0.128, wh * 0.56, "Goes by: Amos(Ay-M-S)", {
-            fontFamily: 'open sans',
-            color: '#000000',
-            fontSize: (ww * 0.011) + 'px'      
-        }).setOrigin(0.5);
-        let txt_expertise = this.add.text(ww * 0.28, wh * 0.52, "Expertise: C++, Python & Unity", {
-            fontFamily: 'open sans',
-            color: '#000000',
-            fontSize: (ww * 0.011) + 'px',
-            wordWrap: { width: ww * 0.3, useAdvancedWrap: true }   
-        }).setOrigin(0.5);
-        let txt_favGame = this.add.text(ww * 0.29, wh * 0.56, "Favorite Game: Splatoon!\nInk the ground and splat your enemy!", {
-            fontFamily: 'open sans',
-            color: '#000000',
-            fontSize: (ww * 0.011) + 'px',
-            wordWrap: { width: ww * 0.3, useAdvancedWrap: true }   
-        }).setOrigin(0.5);
-        let str_bio = "Hi, My name is Amos! It is so great being a game engineer. Game development is so cool! I don't really have a specific preference in terms of the post I would like to take in the future. As long as it is game-related, I will be thrilled! It is just amazing to witness something tangible come out because of my effort. Being part of the greatness gives me a great sense of achievement! I love dogs. Currently, I don't have one due to many reasons. But I believe I would have my own puppy someday in the future and treat him/her as a precious member of my family! On top of that, I like travelling, reading interesting journals, and of course, games!";
-        let txt_bio = this.add.text(ww * 0.22, wh * 0.75, str_bio, {
+        this.add.image(ww * 0.22, wh * 0.7, 'introBG').setDisplaySize(ww* 0.42, ww* 0.29);
+        let txt_bio = this.add.text(ww * 0.22, wh * 0.7, str_bio, {
             fontFamily: 'open sans',
             color: '#000000',
             lineSpacing: ww * 0.002,
