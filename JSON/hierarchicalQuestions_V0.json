@@ -1,0 +1,33 @@
+{
+    "TestLayer":
+    [
+        ["Statin medications are effective in reducing the risk of heart disease and stroke.", "Please indicate how you agree with the above statement."],
+        "Totally agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Totally disagree"
+    ],
+
+    "FirstLayer":
+    [
+        ["What aspects about statins would you like to know?", "Please select the one that most closely applies"],
+        "Side Effects",
+        "Question2",
+        "Question3",
+        "Question4",
+        "Question5"
+    ],
+
+    "Side Effects":
+    [
+        ["What specifically do you want to know about statins side effects?", "Please select the one that most closely applies"],
+        "How to avoid side effects?",
+        "What is the most common side effect?",
+        "Side effects on pregnant women particularly"
+    ],
+    "How to avoid side effects?":
+    [
+        "Solution 1"
+    ]
+}

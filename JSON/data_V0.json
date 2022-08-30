@@ -1,0 +1,16 @@
+{
+    "Questions" : 
+    [
+        "What are statins?", 
+        "Who should use?", 
+        "How and When?", 
+        "The side effects?"
+    ],
+    "Answers" :
+    [
+        "Statins can help lower the risk of heart attack and stroke in people who are at increased risk. Reduce plaque build-up. Help protect your heart from future.",
+        "You should take a statin if you have an increased risk of heart attack or stroke. Studies show that statins can reduce the risk of a heart attack or stroke by 30-45%, even if your cholesterol is normal.",
+        "It's best to take statins in the evening, because cholesterol is made while you sleep. However, you can take statins any time if it is easier for you to remember to take it. Follow your doctor's instructions.",
+        "Common side effects may include: \n (1) Muscle aches (not severe pain) \n (2) Upset stomach"
+    ]
+}
